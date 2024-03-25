@@ -1,0 +1,54 @@
+Bootstrap
+---------
+containers
+----------
+container are a fundamental building block of bootstrap that contain ,pad,and align your content within a given device or viewport
+bootstrap comes with three different containers :
+.container, which sets a max-width at each responsive breakpoint
+
+.container-fluid, which is width: 100% at all breakpoints
+.container-fixed, which has a fixed width and does not account for screen size change
+
+.container-{breakpoint}, which is width: 100% until the specified breakpoint
+
+fluid containers
+----------------
+.container-fluid for a full width container,spanning the entire width of the viewport.
+
+
+Buttons
+-------
+use bootstrap custom button styles for  actions in forms, dialogs, and more with support for multiple sizes ,states ,and more 
+buttons are styled using .btn class
+we can use classes
+
+Grid system
+------------
+Bootstrap's grid system is responsive, and the columns will re-arrange depending on the screen size: On a big screen it might look better with the content organized in three columns, but on a small screen it would be better if the content items were stacked on top of each other.
+
+Table
+-------
+A basic Bootstrap table has  a light padding and only horizontal dividers
+
+Alert
+-----
+bootstrape provides an easy way to create predefined alert messages
+alert are created with the .alert class , followed by one of the four contextual classes .alert-success,.alert-info,.alert-warning or .alert-danger  
+
+pagination
+----------
+we have a website  with lots of pages , you may wish to add some sort of pagination to each page
+
+To create a basic  pagination ,add the  .pagination class to an <ul> element
+
+
+pager
+--------
+
+pager is also a from of pagination pager provides previous and next buttons 
+
+image
+------
+The .img-rounder class adds rounded corners to an image
+The .imag-circle class shapes the image to a circle
+The .imag-thumbnail class shapes the images to a thumbali
