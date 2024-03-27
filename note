@@ -88,7 +88,42 @@ Add the .justify-content-center class to center the navigation bar
 
 input type
 ----------
-Modals
+Bootstrap supports various input types, including text fields, checkboxes, radio buttons, and more, with consistent styling and behavior across different browsers.
+
+Modals & Popover
+---------------
+Bootstrap's modal and popover components allow developers to create modal dialogs and pop-up tooltips, enhancing interactivity and user engagement.
+
+Border
 ------
-popover
-------
+Border utility is used to set the style of the border element. The border styles can be of border, border-top-0, border-end-0,border-bottom-0,border-start-0.
+
+Colors
+-------
+background colors are: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-ligh
+
+Display flexbox
+---------------
+container and to transform direct children into flex items, use the d-flex class
+*.flex-row to display the flex items horizontally (side by side).
+
+Display property
+-----------------
+d-inline- Controls the display behavior of elements, making them display as block,
+inline, or inline-block respectively.
+d-sm-none, d-md-none, d-lg-none, d-xl-none,d-xxl-none: Hides elements on different screen sizes.
+
+Display postion
+----------------
+position-absolute
+position-static
+position-relative
+position-fixed 
+position-sticky
+
+
+
+
+
+
+
